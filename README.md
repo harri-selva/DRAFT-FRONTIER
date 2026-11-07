@@ -37,3 +37,9 @@ Papers, counts, suitability scores, and relationships are illustrative. The 3D n
 Editable interface sources live in `src/`. Run `npm run build` to regenerate the standalone `dist/index.html` and sample `data.json`; then run `npm start` for the local server. No dependency installation is required.
 
 Model access is not yet configured. All scientific data are illustrative.
+
+## Public demo deployment
+
+GitHub Pages serves the standalone `index.html` from the root of `main`. The static demo includes offline abstract drafting. GitHub Pages does not run `server.mjs`, so live AI requires deploying the backend separately with server-side model access.
+
+`npm run build` regenerates both `dist/index.html` and the root `index.html`.
